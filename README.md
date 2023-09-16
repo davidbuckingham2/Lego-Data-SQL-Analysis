@@ -12,7 +12,7 @@ SQL was used to extract data from multiple tables, join them, and create a simpl
 
 ### 2. Data Aggregation
 
-Aggregation functions such as `COUNT`, `SUM`, `AVG`, and `PERCENTILE_CONT` were applied to summarize and analyze data. For example, we calculated the average number of parts per set and identified quartiles for set sizes.
+Aggregation functions such as `COUNT`, `SUM`, and 'AVG' were applied to summarize and analyze data. For example, we calculated the average number of parts per set and identified the total amount of lego parts produced per year.
 
 ### 3. Grouping and Group By
 
@@ -29,6 +29,10 @@ The `ORDER BY` clause helped in arranging data in a meaningful way, facilitating
 ### 6. Subqueries and Common Table Expressions (CTEs)
 
 CTEs and subqueries were employed to break down complex analysis into manageable steps. For instance, a CTE was used to calculate the percentage of Star Wars-themed sets released in the 21st century.
+
+### 7. Window Functions
+
+Window functions were utilized for tasks like ranking themes by popularity within each year of the 21st century. These functions allowed for more advanced analytical tasks by providing access to data within a specific "window" of rows.
 
 ## Additional Analysis
 
